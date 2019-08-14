@@ -5,12 +5,3 @@ class Comment extends Component {
 		return <div className="comment">{this.props.commentText}</div>;
 	}
 }
-class Comment extends Component {
-  render() {
-    return (
-      <div className="comment">{this.props.commentText}</div>
-    )
-  }
-}
-
-export default Comment;
