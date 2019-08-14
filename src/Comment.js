@@ -5,3 +5,11 @@ class Comment extends Component {
     return 
   }
 }
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="comment">{this.props.commentText}</div>;
+    )
+  }
+}
